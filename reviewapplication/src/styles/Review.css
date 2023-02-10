@@ -1,0 +1,90 @@
+.container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.card {
+    background-color: #fffcfc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px #333;
+}
+
+.cardHeader {
+    background-color: #06b4ea;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 19px;
+    margin-bottom: 23px;
+}
+
+span.rating {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 19px;
+    border-radius: 24px;
+    font-family: monospace;
+}
+
+span.name {
+    margin-left: 20px;
+    font-family: monospace;
+    font-size: 30px;
+    color: #fff;
+}
+
+span.icon {
+    float: right;
+    padding-top: 9px;
+    cursor: pointer;
+    color: red;
+}
+
+span.review {
+    margin-left: 20px;
+    font-family: monospace;
+    font-size: 30px;
+    color: #fff;
+}
+input.nameInput {
+    width: 95%;
+    padding: 10px 14px;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+textarea.comment {
+    width: 95%;
+    height: 75px;
+    font-size: 20px;
+}
+
+.sbt-btn {
+    padding: 9px 22px;
+    font-size: 20px;
+    background-color: #06b4ea;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    /* color: #fff; */
+    /* text-align: center;
+    justify-content: center; */
+}
+.Btn{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.removeBtn{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.viewPage{
+    /* width:1000px; */
+    overflow-y: auto;
+    height: 500px;
+}
